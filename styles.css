@@ -1,0 +1,58 @@
+body{
+    background-color: #161615;
+    height: 100vh;
+}
+#fotologo{
+    background-image: url("assets/img/Perfil\ 02.png");
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+h1{
+    color: #ecca12; /*cor do texto*/
+    font-family: "Kanit", sans-serif;
+    font-weight: 40;
+    font-style: normal;
+    font-size: 1.25rem; /*tamando da letra, melhor na medida rem que adapta em acessibilidade do site 1rem tem 16px*/
+    font-weight: 700; /*preenchimento da letra, tipo contorno*/
+    margin: 30px 0px 27px 0px;
+    text-align: center;
+}
+.buttonSocial{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    width: 255px;
+    height: 42px;
+    background-color: #ecca12;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 27px;
+    cursor: pointer;
+    padding-left: 35px;
+
+    img{
+        height: 25px;
+    }
+
+    p{
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.125rem;
+        padding-left: 20px;
+        color: #161615;
+    }
+    
+} 
+.whatssButton{
+    background-color: #84848c;
+}   
+#containerParent{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
